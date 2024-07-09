@@ -1,0 +1,41 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  z-index: 100;
+}
+
+.overlay header {
+  padding: 5px;
+  margin: 0;
+  background: blueviolet;
+  color: white;
+}
+
+.overlay p {
+  padding: 5px;
+  color: black;
+}
+
+.overlay footer {
+  text-align: end;
+}
+
+.overlay footer button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 3px;
+  margin: 4px;
+  border: none;
+}

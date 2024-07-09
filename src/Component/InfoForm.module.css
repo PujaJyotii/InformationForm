@@ -1,0 +1,75 @@
+.box {
+  margin: 20px auto;
+  width: 30%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.box form label {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.box form input {
+  display: block;
+  border: 2px solid rgb(5, 3, 104);
+  border-radius: 4px;
+  padding: 2px;
+  width: 100%;
+}
+
+.box form button {
+  background: blue;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin: 3px;
+}
+
+.list {
+  margin: 20px auto;
+  width: 40%;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  border: 3px solid rgb(4, 4, 117);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+}
+.inner button {
+  border: none;
+  color: white;
+  background: rgb(4, 4, 117);
+  border-radius: 3px;
+  padding: 5px;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.inner button:hover {
+  background-color: blue;
+}
